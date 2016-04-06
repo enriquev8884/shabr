@@ -1,0 +1,95 @@
+.navbar-inverse {
+    background-color: #FFFFF2
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    background-color: #EDEDE1
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #E0E0D5
+}
+
+.dropdown-menu {
+    background-color: #F5F5E8
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-color: #CCCCC2
+}
+
+.navbar-inverse {
+    background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-image: none;
+}
+
+.navbar-inverse {
+    border-color: #C9C9BF
+}
+
+.navbar-inverse .navbar-brand {
+    color: #000000
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #8A8A8A
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #8A8A8A
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #000000
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    color: #000000
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #8A8A8A
+}
+
+.dropdown-menu>li>a {
+    color: #8A8A8A
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    color: #000000
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-top-color: #999999
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+    border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-bottom-color: #999999
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+    border-bottom-color: #FFFFFF
+}

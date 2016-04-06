@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 400%;
+}
+
+p {
+    font-family: 'Courgette', cursive;
+    font-size: 150%;
+}
+
+.titlePic {
+    background: linear-gradient( rgba(0, 0, 225, 0.3), rgba(0, 0, 0, 0.4)), url('img/balloon-1.jpg') no-repeat center;
+    background-size: cover;
+    display: table;
+    margin: 0 auto;
+}
+
+.homePic {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 225, 0.5)), url('img/balloon-3.jpg') no-repeat center;
+    background-size: cover;
+    display: table;
+    margin: 0 auto;
+}
+
+.galleryPic {
+    display: table;
+    margin: 0 auto;
+}
+
+.full {
+    height: 100%;
+    width: 100%;
+}
+
+.half {
+    height: 50%;
+    width: 100%;
+}
+
+.ver {
+    vertical-align: middle;
+}
+
+.h1Title {
+    display: table-cell;
+    color: white;
+    text-shadow: 2px 2px black;
+}
