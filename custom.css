@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    background-color: #E0E0D5;
 }
 
 h1 {
@@ -14,6 +15,33 @@ p {
     font-size: 150%;
 }
 
+#myCarousel {
+    padding-bottom: 20px;
+    background-color: #E0E0D5;
+    padding: 0px 0px 0px;
+}
+
+#infoText {
+    font-family: 'Economica', sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 180%;
+}
+
+#contactText {
+    font-family: 'Economica', sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.Cright {
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .titlePic {
     background: linear-gradient( rgba(0, 0, 225, 0.3), rgba(0, 0, 0, 0.4)), url('img/balloon-1.jpg') no-repeat center;
     background-size: cover;
@@ -22,10 +50,21 @@ p {
 }
 
 .homePic {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 225, 0.5)), url('img/balloon-3.jpg') no-repeat center;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('img/balloon-3.jpg') no-repeat center;
     background-size: cover;
     display: table;
     margin: 0 auto;
+}
+
+.tesPic {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('img/balloon-4.jpg') no-repeat center;
+    background-size: cover;
+    display: table;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
 }
 
 .galleryPic {
@@ -33,8 +72,15 @@ p {
     margin: 0 auto;
 }
 
+.margin {
+    border-spacing: 0px;
+}
+
 .full {
     height: 100%;
+    width: 100%;
+}
+.width{
     width: 100%;
 }
 
@@ -51,4 +97,41 @@ p {
     display: table-cell;
     color: white;
     text-shadow: 2px 2px black;
+}
+
+.co1 {
+    background-color: rgba(35, 95, 0, 0.3);
+}
+
+.co2 {
+    background-color: rgba(118, 0, 62, 0.3);
+}
+
+.co3 {
+    background-color: rgba(71, 95, 86, 0.3);
+}
+
+.co4 {
+    background-color: rgba(110, 95, 47, 0.3);
+}
+
+.co5 {
+    background-color: rgba(110, 95, 113, 0.3);
+}
+
+.co6 {
+    background-color: rgba(161, 151, 205, 0.3);
+}
+
+.fixPad {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 600%;
+    }
+
 }
